@@ -1,5 +1,18 @@
 {
   "emmet.includeLanguages": {
     "erb": "html"
-  }
+  },
+  "sqltools.connections": [
+    {
+      "askForPassword": false,
+      "connectionTimeout": 15,
+      "database": "microposts_dev",
+      "dialect": "PostgreSQL",
+      "name": "microposts",
+      "password": null,
+      "port": 5432,
+      "server": "127.0.0.1",
+      "username": "lazokin"
+    }
+  ]
 }
