@@ -1,0 +1,4 @@
+johnsnow:
+  name: John Snow
+  email: johnsnow@winterfell.com
+  password_digest: <%= User.digest('password') %>
